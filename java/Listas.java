@@ -24,6 +24,14 @@ public class Listas {
         //frutas.add("Banana");
         System.out.println(frutas);
 
-        LinkedList<String> lista
+        LinkedList<String> lista = new LinkedList<>(frutas);
+
+        lista.add(1,"Banana");
+        lista.addFirst("Frutilla");
+        lista.addLast("Uva");
+
+        System.out.println("Lista final(Mutuable y Adaptada" + lista);
+        
+
     }
 }
