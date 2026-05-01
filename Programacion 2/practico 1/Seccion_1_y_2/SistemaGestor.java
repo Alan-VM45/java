@@ -5,6 +5,7 @@
  * @version 1.0
  */
 
+// Ejercicio 1.1
 public class SistemaGestor {
 
     /* BLOQUE DE CONFIGURACIÓN:
@@ -12,7 +13,8 @@ public class SistemaGestor {
     Se utiliza 'static' para que la variable pertenezca a la clase y no a la instancia,
     ahorrando memoria al no replicarse en cada objeto.
     */
-    public static final int MAX_CONEXIONES = 10; // Constante de límite de red
+    // Ejercicio 1.2
+    public static final int MAX_CONEXIONES = 10;
     
 
     public static void main(String[] args) {

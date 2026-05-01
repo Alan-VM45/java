@@ -9,7 +9,7 @@ public class Usuario {
             usuario1.actualizarPerfil("juan@example.com");
         }
     
-    // Sobrecarga de Constructores
+    // Ejercicio 2.2
     public Usuario() { }
 
     public Usuario(String nombre) {
